@@ -1,0 +1,13 @@
+<syslog>
+<entry name="syslog-SFN-5514">
+  <server>
+    <entry name="SFN-server">
+      <transport>TCP</transport>
+      <port>5514</port>
+      <format>BSD</format>
+      <server>{{ SFN_Server }}</server>
+      <facility>LOG_USER</facility>
+    </entry>
+  </server>
+</entry>
+</syslog>
