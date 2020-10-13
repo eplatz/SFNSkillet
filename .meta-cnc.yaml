@@ -47,7 +47,20 @@ snippets:
 # Changing the content of the snippet may be necessary, but do NOT change the order
   - name: shared_log_settings
     xpath: /config/shared/log-settings
-    file: shared_log_setting.xml
+    element: |- 
+      <syslog>
+        <entry name="syslog-SFN-5514">
+          <server>
+            <entry name="SFN-server">
+              <transport>TCP</transport>
+              <port>5514</port>
+              <format>BSD</format>
+              <server>{{ SFN_Server }}</server>
+              <facility>LOG_USER</facility>
+            </entry>
+          </server>
+        </entry>
+      </syslog>
   - name: security_profiles
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles
     file: security_profiles.xml
