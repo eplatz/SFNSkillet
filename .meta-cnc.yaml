@@ -45,8 +45,8 @@ snippets:
 # files will load in the order listed
 # NOTE: The following snippets are auto-generated and ordered automatically.
 # Changing the content of the snippet may be necessary, but do NOT change the order
-  - name: share_log_setting
-    xpath: /config/shared/log-setting
+  - name: shared_log_settings
+    xpath: /config/shared/log-settings
     file: shared_log_setting.xml
   - name: security_profiles
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles
