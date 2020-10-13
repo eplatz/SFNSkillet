@@ -1,5 +1,4 @@
-<log-settings>
-	<syslog>
+<syslog>
 	<entry name="syslog-SFN-5514">
 	  <server>
 	    <entry name="SFN-server">
@@ -11,5 +10,4 @@
 	    </entry>
 	  </server>
 	</entry>
-	</syslog>
-</log-settings>
+</syslog>
