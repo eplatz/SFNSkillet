@@ -1,6 +1,6 @@
 <security>
   <rules>
-    <entry name="{{ Security_Rule }}" uuid="f5cd3d07-916a-49ae-a911-92a1d8109830">
+    <entry name="{{ Security_Rule }}">
       <profile-setting>
         <profiles>
           <url-filtering>
