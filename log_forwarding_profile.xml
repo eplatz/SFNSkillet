@@ -1,0 +1,26 @@
+<log-settings>
+  <profiles>
+    <entry name="SFN-Log-Forwarding">
+      <match-list>
+        <entry name="Syslog-Traffic-SFN">
+          <send-syslog>
+            <member>syslog-SFN-5514</member>
+          </send-syslog>
+          <log-type>traffic</log-type>
+          <filter>All Logs</filter>
+          <send-to-panorama>no</send-to-panorama>
+          <quarantine>no</quarantine>
+        </entry>
+        <entry name="Syslog-Threat-SFN">
+          <send-syslog>
+            <member>syslog-SFN-5514</member>
+          </send-syslog>
+          <log-type>threat</log-type>
+          <filter>All Logs</filter>
+          <send-to-panorama>no</send-to-panorama>
+          <quarantine>no</quarantine>
+        </entry>
+      </match-list>
+    </entry>
+  </profiles>
+</log-settings>
