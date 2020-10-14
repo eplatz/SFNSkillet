@@ -1,5 +1,5 @@
 # SFNSkillet
-SFNSkillet eliminates the manual firewall configuration needed to use SafeNetworking.
+SFNSkillet is an 'easy button' alternative to the manual firewall configuration necessary for SafeNetworking.
 
 ## SFNSkillet and panhandler
 SFNSKillet is designed to work with the panhandler application.
