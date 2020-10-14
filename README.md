@@ -1,14 +1,14 @@
 # SFNSkillet
 SFNSkillet eliminates the manual firewall configuration needed to use SafeNetworking.
 
-##SFNSkillet and panhandler
+## SFNSkillet and panhandler
 SFNSKillet is designed to work with the panhandler application.
 
 [Quick Start Guide to panhandler](https://live.paloaltonetworks.com/t5/skillet-tools/install-and-get-started-with-panhandler/ta-p/307916)
 
 [panhandler full documentation](https://panhandler.readthedocs.io/en/master/)
 
-##SafeNetworking
+## SafeNetworking
 SafeNetworking is a software application that recevies both THREAT and TRAFFIC syslogs events from Palo Alto Networks NGFWs. Using the Palo Alto Networks Threat Intelligence Cloud, SafeNetworking is able to correlate some of the threat logs (DNS queires mainly) with malware known to be associated with the event in question. SafeNetworking utilizes ElasticStack's open-source version to gather, store and visualize these enriched events.
 
 Before using SafeNetworking, please read and understand our Support Policy
