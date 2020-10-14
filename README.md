@@ -1,5 +1,6 @@
 # SFNSkillet
 SFNSkillet is an 'easy button' alternative to the manual firewall configuration necessary for SafeNetworking.
+This skillet currently supports v10.0 of PanOS
 
 ## SFNSkillet and panhandler
 SFNSKillet is designed to work with the panhandler application.
